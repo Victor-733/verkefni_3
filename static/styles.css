@@ -1,0 +1,30 @@
+body {
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 1em;
+}
+footer {
+    display: flex;
+    margin-top: 1em;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 1em;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.row section {
+    padding: 2px;
+}
+img {
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    padding: 1em;
+    border: 1px solid black;
+}
